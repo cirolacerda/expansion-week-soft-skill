@@ -1,20 +1,27 @@
 import React from 'react';
-import { Container, LogoContent, TextContent } from './styles';
+import {
+  HeaderContent, LogoContent,
+} from './styles';
+
+import LogoMega from '../../assets/megafone.png';
 
 import Logo from '../../assets/network.svg';
 
 const Header: React.FC = () => (
   <>
-    <header>
-      <p>Open Mentor</p>
-    </header>
+    <HeaderContent>
+      <header>
+        <img src={LogoMega} alt="Open Mentor" />
+        <p>Open Mentor</p>
+      </header>
+    </HeaderContent>
     <LogoContent>
       <div className="title">
-        <h1>COMUNICAÇÃO</h1>
+        <h1>Comunicação é o diferencial</h1>
         <p>A Soft Skill que todos os desenvolvedores devem ter! </p>
-        <button type="button">Quero me comunicar</button>
-        <img src={Logo} alt="Open Mentor" />
+        <button type="button">Quero dominar a comunicação</button>
       </div>
+      <img src={Logo} alt="Comunicação" />
     </LogoContent>
   </>
 );

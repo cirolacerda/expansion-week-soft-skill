@@ -1,18 +1,72 @@
 import styled from 'styled-components';
 
 export const LogoContent = styled.div`
+ height: 500px;
+ margin: 0 80px;
+ display: flex;
+
+
+.title {
+
   display: flex;
   flex: 1;
-  flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  justify-content:center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 3.5em;
+    color: #86C171;
+
+  }
+
+  p {
+    justify-content: left;
+    margin: 35px 0px;
+  }
+
+  button {
+
+          border-radius: 8px;
+          border: 1;
+          border-color: transparent;
+          background: #86C171;
+          color: #fff;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 30px;
+          font-size: 1.5em;
+          border-bottom: 9px solid black;
+
+
+        }
+
+
+
+}
+
+img {
+  width: 50%;
+  display: flex;
   align-content: center;
+}
+
 `;
 
-export const TextContent = styled.div`
+export const HeaderContent = styled.div`
   display: flex;
   flex-direction: row;
-  h1 {
-    color: #86c171;
+  img {
+  width: 30%;
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  }
+
+  p {
+    display: flex;
+    color: #ffffff;
     text-align: start;
   }
   h3 {
