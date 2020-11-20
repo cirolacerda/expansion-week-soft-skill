@@ -1,13 +1,12 @@
 import React from 'react';
+import Home from './pages/Home';
 import GlobalStyle from './styles/global';
 
-const App: React.FC = () => {
-  return (
-    <>
-      <h1>Soft Skill</h1>
-      <h1>A Soft Skill que os desenvolvedores devem ter! </h1>
-      <GlobalStyle />
-    </>
-  );
-};
+const App: React.FC = () => (
+  <>
+    <GlobalStyle />
+    <Home />
+  </>
+);
+
 export default App;
