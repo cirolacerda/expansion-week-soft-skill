@@ -4,6 +4,9 @@ import { HeaderContent, InforBar, LogoContent } from './styles';
 import LogoMentor from '../../assets/mentorslogo.png';
 
 import Logo from '../../assets/network.svg';
+import IconUser from '../../assets/user.svg';
+import IconLocation from '../../assets/location.svg';
+import IconServer from '../../assets/server.svg';
 
 const Header: React.FC = () => (
   <>
@@ -28,14 +31,19 @@ const Header: React.FC = () => (
     <InforBar>
       <ul>
         <li>
+          <img src={IconUser} alt="Devs" />
           <strong>+100K</strong>
           <span>Desenvolvedores</span>
         </li>
+
         <li>
+          <img src={IconLocation} alt="Paises" />
           <strong>+10K</strong>
           <span>Países</span>
         </li>
+
         <li>
+          <img src={IconServer} alt="Empresas" />
           <strong>+30K</strong>
           <span>Empresas</span>
         </li>

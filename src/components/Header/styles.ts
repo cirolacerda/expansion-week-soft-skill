@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InforBar = styled.div`
-  height: 85px;
+  height: 130px;
   margin: 0 150px;
   background-color: #f8f8f8;
   border-radius: 10px;
@@ -13,7 +13,7 @@ export const InforBar = styled.div`
   }
 
   li {
-    height: 85px;
+    height: 130px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -22,6 +22,7 @@ export const InforBar = styled.div`
     padding: 0px 15px;
 
     strong {
+      margin-top: 0.4rem;
       color: black;
     }
 
